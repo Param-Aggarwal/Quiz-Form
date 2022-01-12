@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Quiz Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <form id="quiz-form">
+    <ol>
+      <li class="question-item">
+        <div class="question"> What does this code return? ( 0 || ' ' || false || "Hi" )</div>
+        <ol type="a">
+          <li class="answer-item"> <label> <input class="answer" type="radio" name="answer-1" value="false"> 0 </label> </li>
+          <li class="answer-item"> <label> <input class="answer" type="radio" name="answer-1" value="true"> Hi</label></li>
+          <li class="answer-item"> <label> <input class="answer" type="radio" name="answer-1" value="false"> false</label> </li>
+          <li class="answer-item"> <label> <input class="answer" type="radio" name="answer-1" value="false"> ' ' </label> </li>
+        </ol>
+        <label class="clear" >clear selection</label>
+      </li><br>
+
+      <li class="question-item">
+        <div class="question"> What does this code return? ( 0 || '' || false || "Hi" )</div>
+        <ol type="a">
+          <li class="answer-item"> <label> <input class="answer" type="radio" name="answer-2" value="false">0 </label> </li>
+          <li class="answer-item"> <label> <input class="answer" type="radio" name="answer-2" value="true"> Hi</label> </li>
+          <li class="answer-item"> <label> <input class="answer" type="radio" name="answer-2" value="false">false </label> </li>
+          <li class="answer-item"> <label> <input class="answer" type="radio" name="answer-2" value="false"> ' '</label> </li>
+        </ol>
+        <label class="clear" >clear selection</label>
+      </li><br>
+
+      <li class="question-item">
+        <div class="question"> What does this code return? ( 0 || '' || false || "Hi" )</div>
+        <ol type="a">
+          <li class="answer-item"> <label> <input class="answer" type="radio" name="answer-3" value="false"> 0 </label> </li>
+          <li class="answer-item"> <label> <input class="answer" type="radio" name="answer-3" value="true"> Hi </label> </li>
+          <li class="answer-item"> <label> <input class="answer" type="radio" name="answer-3" value="false"> false </label> </li>
+          <li class="answer-item"> <label> <input class="answer" type="radio" name="answer-3" value="false"> ' ' </label> </li>
+        </ol>
+        <label class="clear" >clear selection</label>
+      </li><br>
+    </ol>
+    <button type="submit" name="button" id="quiz-form1">Check</button>
+  </form>
+
+
+</body>
+
+</html>
