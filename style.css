@@ -3,6 +3,11 @@ body{
   font-size: 1.2em;
 }
 
+.heading{
+  color: #2b0d97;
+  margin-top: 0;
+}
+
 .clear{
   margin-left: 300px;
   background-color: #777;
